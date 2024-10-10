@@ -1,3 +1,5 @@
+#### Perform Stouffer's Z score meta-analysis on differential expression results
+
 library(jaffelab)
 library(collapse)
 library(ggplot2)
@@ -5,13 +7,6 @@ library(reshape2)
 library(cowplot)
 library(RColorBrewer)
 library(stringr)
-
-#get sample size for all experiments
-#load all DE sets, add Z score
-#reduce to intersect
-#make Z score matrix
-#multiply weight through
-#calculate meta Z
 
 genes = c("Akap11", "Dagla", "Gria3", "Grin2a", "Sp4", "Srrm2", "Zmym2")
 
